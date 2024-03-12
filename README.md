@@ -81,8 +81,8 @@ To run this project locally:
 
 # Shape of Weather App
 
-![MobileImage](./docs/MobileImage.png)
-![MobileImage](./docs/MobileImage2.png)
+![Mobile Image](./docs/MobileImage.png)
+![Mobile Image](./docs/MobileImage2.png)
 
-![WebImage](./docs/WebImage.png)
-![WebImage](./docs/WebImage2.png)
+![Web Image](./docs/WebImage.png)
+![Web Image](./docs/WebImage2.png)
