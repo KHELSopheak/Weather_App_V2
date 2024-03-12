@@ -50,3 +50,39 @@ Key Features :
 
 - https://emotion.sh/docs/introduction
 - https://styled-components.com/
+
+# Branches:
+
+I used 4 main branches for my project :
+
+- `main` branch: it represents the latest production-ready state of my project. It contains stable code that is suitable for deployment.
+
+- `develop` branch: It is where ongoing development and integration of new features occur. It's a branch from which feature branches are created and merged back once the features are complete.
+
+- `feature` branch: For each new feature, a dedicated feature branch was created from the develop branch. Feature branches are where the actual coding takes place. To create a feature branch.
+
+- `release` branches: To prepare the codebase for a new release, I introduce release branches. A release branch is created from the develop branch and is used to ensure that the upcoming release is stable and ready for deployment. During this phase, only bug fixes and necessary changes are made. Once the release branch is thoroughly tested, it's merged into both the main branch for deployment and the develop branch to incorporate any last-minute fixes back into ongoing development.
+
+# Getting Started
+
+To run this project locally:
+
+1. clone git repository: 'git clone https://github.com/anb-hq/Fireflies_Sopheak_Khel_WeatherApp.git'
+2. Change to the cloned directory: 'cd Fireflies_Sopheak_Khel_WeatherApp'
+3. run yarn
+4. yarn dev
+
+# Reference
+
+- Open weather API (Developer Plan) - Link: https://openweathermap.org/
+- shoutout to the [OpenWeatherMap](https://openweathermap.org/) for the free developer subscription.
+- json file for serach country: https://github.com/dr5hn/countries-states-cities-database
+- React Icons: Used to import nescessary icons for website including the sun, cloud, humidity, speed of wind and search icons
+
+# Shape of Weather App
+
+![MobileImage](./docs/MobileImage.png)
+![MobileImage](./docs/MobileImage2.png)
+
+![WebImage](./docs/WebImage.png)
+![WebImage](./docs/WebImage2.png)
